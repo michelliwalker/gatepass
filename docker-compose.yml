@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  # Serviço da Aplicação PHP (GatePass)
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gatepass_app_php
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - db
+    environment:
+      MYSQL_HOST: db
+      MYSQL_DATABASE: gatepass_db
+      MYSQL_USER: gatepass_user
+      MYSQL_PASSWORD: gatepass_password
+
+  # Serviço do Banco de Dados MariaDB
+  db:
+    image: mariadb:10.6
+    container_name: gatepass_db_mariadb
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: super_secure_root_password
+      MYSQL_DATABASE: gatepass_db
+      MYSQL_USER: gatepass_user
+      MYSQL_PASSWORD: gatepass_password
+    volumes:
+      - db_data:/var/lib/mysql
+      # ADIÇÃO: Mapeia o seu script SQL para o diretório de inicialização do MariaDB
+      - ./db/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+      # Você também pode mapear uma pasta inteira se tiver múltiplos scripts SQL:
+      # - ./db:/docker-entrypoint-initdb.d/ # Se você tiver múltiplos .sql ou .sh dentro de db/
+
+# Volumes nomeados para persistência de dados
+volumes:
+  db_data:
