@@ -1,4 +1,4 @@
-# 🚀 GatePass: Sistema de Compra e Venda de Ingressos/Produtos
+# GatePass: Sistema de Compra e Venda de Ingressos/Produtos
 
 ![GatePass Logo](public/images/gate-pass-logo.png) 
 
