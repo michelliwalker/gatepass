@@ -282,8 +282,8 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICEN
 
 **Desenvolvido por:**
 
-* **Seu Nome:** Jonathan Bufon
-* **Seu Email:** [jonathanbufon@gmail.com]
+* **Nome:** Jonathan Bufon
+* **Email:** jonathanbufon@gmail.com
 
 ---
 **Chapecó, Santa Catarina, Brasil.**
