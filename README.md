@@ -89,8 +89,9 @@ Siga estas instruções passo a passo para configurar e executar o projeto em se
 1.  **Clone o Repositório:**
     Abra seu terminal ou prompt de comando, navegue até o diretório onde deseja armazenar o projeto e clone o repositório:
     ```bash
-    git clone [https://github.com/JonathanBufon/gatepass.git](https://github.com/JonathanBufon/gatepass.git) GatePass
+    git clone https://github.com/JonathanBufon/gatepass.git GatePass
     cd GatePass
+
     ```
 
 2.  **Execute o Script de Setup Automatizado:**
