@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🚀 GatePass: Sistema de Compra e Venda de Ingressos/Produtos
 
 ![GatePass Logo](public/images/gate-pass-logo.png) ## 📄 Visão Geral do Projeto
@@ -250,8 +249,8 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICEN
 
 **Desenvolvido por:**
 
-* **Seu Nome:** [Seu Nome Completo]
-* **Seu Email:** [seu.email@exemplo.com]
+* **Seu Nome:** Jonathan Bufon
+* **Seu Email:** jonathanbufon@gmail.com
 
 ---
 **Chapecó, Santa Catarina, Brasil.**
@@ -259,4 +258,3 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICEN
 =======
 # gatepass
 Projeto Final do curso DEV Evolution
->>>>>>> 36c43724fb3428d6adb61d0b89f75703b13b5799
