@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 GatePass: Sistema de Compra e Venda de Ingressos/Produtos
 
 ![GatePass Logo](public/images/gate-pass-logo.png) ## 📄 Visão Geral do Projeto
@@ -255,3 +256,7 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICEN
 ---
 **Chapecó, Santa Catarina, Brasil.**
 **Data da Documentação Final:** 26 de Julho de 2025.
+=======
+# gatepass
+Projeto Final do curso DEV Evolution
+>>>>>>> 36c43724fb3428d6adb61d0b89f75703b13b5799
